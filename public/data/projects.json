@@ -1,0 +1,100 @@
+{
+  "projects": [
+    {
+      "id": "continental-hotel",
+      "title": "Continental Hotel",
+      "description": "Hotel",
+      "category": "Front-End",
+      "img": "/images/projects/continental-hotel.png",
+      "techs": "React, Next JS.",
+      "github": "https://github.com/dev-ahmedismael/continental-hotel",
+      "url": "https://continental-hotel.vercel.app/",
+      "release_date": "Jan 10, 2023",
+      "last_update": "Jan 10, 2023"
+    },
+    {
+      "id": "ahmedismael",
+      "title": "Ahmed Ismael",
+      "description": "Portfolio",
+      "category": "Full-Stack",
+      "img": "/images/projects/ahmedismael.png",
+      "techs": "React, Next JS, MUI, Framer Motion and Swiper JS.",
+      "github": "https://github.com/dev-ahmedismael/ahmedismael",
+      "url": "https://ahmedismael.vercel.app",
+      "release_date": "Aug 01, 2023",
+      "last_update": "Aug 24, 2023"
+    },
+    {
+      "id": "metronic",
+      "title": "Metronic",
+      "description": "Dashboard",
+      "category": "Front-End",
+      "img": "/images/projects/metronic.png",
+      "techs": "React, Next JS, MUI and Redux Toolkit.",
+      "github": "https://github.com/dev-ahmedismael/metronic",
+      "url": "https://metronic-project.vercel.app",
+      "release_date": "Aug 04, 2023",
+      "last_update": "Aug 04, 2023"
+    },
+    {
+      "id": "jasmine-cfa",
+      "title": "Jasmine CFA",
+      "description": "CFA Exams",
+      "category": "Front-End",
+      "img": "/images/projects/jasmine-cfa.png",
+      "techs": "React, Next JS, MUI and Redux Toolkit.",
+      "github": "https://github.com/dev-ahmedismael/jasmine-cfa",
+      "url": "https://jasmine-cfa.vercel.app",
+      "release_date": "Aug 08, 2023",
+      "last_update": "Aug 08, 2023"
+    },
+    {
+      "id": "superstarcafe",
+      "title": "Super Star Cafe",
+      "description": "Restaurant & Cafe",
+      "category": "Front-End",
+      "img": "/images/projects/superstarcafe.png",
+      "techs": "React, Next JS, MUI, Framer Motion and Redux Toolkit.",
+      "github": "https://github.com/dev-ahmedismael/superstarcafe",
+      "url": "https://superstarcafe.vercel.app",
+      "release_date": "Aug 15, 2023",
+      "last_update": "Aug 15, 2023"
+    },
+    {
+      "id": "ganton",
+      "title": "Ganton",
+      "description": "GYM",
+      "category": "Front-End",
+      "img": "/images/projects/ganton.png",
+      "techs": "React, Next JS, MUI, Framer Motion and Swiper JS.",
+      "github": "https://github.com/dev-ahmedismael/ganton-gym",
+      "url": "https://ganton-gym.vercel.app",
+      "release_date": "Aug 18, 2023",
+      "last_update": "Aug 18, 2023"
+    },
+    {
+      "id": "djoz",
+      "title": "DJoz ",
+      "description": "DJ",
+      "category": "Front-End",
+      "img": "/images/projects/djoz.png",
+      "techs": "React, Next JS, MUI, Framer Motion and Swiper JS.",
+      "github": "https://github.com/dev-ahmedismael/djoz",
+      "url": "https://djoz.vercel.app",
+      "release_date": "Aug 21, 2023",
+      "last_update": "Aug 21, 2023"
+    },
+    {
+      "id": "starlaw",
+      "title": "Star Law",
+      "description": "Law Firm",
+      "category": "Front-End",
+      "img": "/images/projects/starlaw.png",
+      "techs": "React, Next JS, MUI and Framer Motion.",
+      "github": "https://github.com/dev-ahmedismael/starlaw",
+      "url": "https://starlaw.vercel.app",
+      "release_date": "Aug 23, 2023",
+      "last_update": "Aug 23, 2023"
+    }
+  ]
+}
