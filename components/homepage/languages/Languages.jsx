@@ -26,6 +26,7 @@ import {
   red,
   yellow,
 } from "@mui/material/colors";
+import SOS from "@/templates/SOS";
 
 register();
 
@@ -69,30 +70,32 @@ const Languages = () => {
     swiperContainer.initialize();
   }, []);
   return (
-    <section>
-      <Container>
-        <Box
-          border={"1px solid #fff"}
-          borderRadius={2}
-          mt={1}
-          pt={2}
-          mb={5}
-          className="bg-white"
-        >
-          <Container>
-            <swiper-container ref={swiperRef} init="false">
-              {langs.map((lang) => (
-                <swiper-slide key={lang.id}>
-                  <Box color={lang.color} fontSize={"80px"} mr={5}>
-                    {lang.icon}
-                  </Box>
-                </swiper-slide>
-              ))}
-            </swiper-container>
-          </Container>
-        </Box>
-      </Container>
-    </section>
+    <SOS>
+      <section>
+        <Container>
+          <Box
+            border={"1px solid #fff"}
+            borderRadius={2}
+            mt={1}
+            pt={2}
+            mb={5}
+            className="bg-white"
+          >
+            <Container>
+              <swiper-container ref={swiperRef} init="false">
+                {langs.map((lang) => (
+                  <swiper-slide key={lang.id}>
+                    <Box color={lang.color} fontSize={"80px"} mr={5}>
+                      {lang.icon}
+                    </Box>
+                  </swiper-slide>
+                ))}
+              </swiper-container>
+            </Container>
+          </Box>
+        </Container>
+      </section>
+    </SOS>
   );
 };
 

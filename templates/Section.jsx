@@ -1,10 +1,10 @@
 import { Box, Container } from "@mui/material";
 import React from "react";
-import AOS from "./AOS";
+import SOS from "./SOS";
 
 const Section = ({ children }) => {
   return (
-    <AOS>
+    <SOS>
       <section>
         <Container>
           <Box
@@ -19,7 +19,7 @@ const Section = ({ children }) => {
           </Box>
         </Container>
       </section>
-    </AOS>
+    </SOS>
   );
 };
 

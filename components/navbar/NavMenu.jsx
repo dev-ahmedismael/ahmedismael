@@ -31,18 +31,20 @@ const NavMenu = () => {
       <Box position={"absolute"} zIndex={10} top={133} left={0} width={"100%"}>
         <Container>
           <Box
-            className={`bg-white ${
-              isMenuActive ? "close-navmenu" : "open-navmenu"
-            }`}
+            className={isMenuActive ? "open-navmenu" : " close-navmenu"}
             mx={1}
             borderRadius={2}
             overflow={"hidden"}
+            bgcolor={"#fff"}
           >
             {pages.map((page) => (
-              <Box key={page.id} my={2}>
+              <Box key={page.id} my={4}>
                 <Container>
                   <Link href={page.url}>
-                    <Typography sx={{ "&:hover": { color: blue[700] } }}>
+                    <Typography
+                      textAlign={"center"}
+                      sx={{ "&:hover": { color: blue[700] } }}
+                    >
                       {page.title}
                     </Typography>
                   </Link>

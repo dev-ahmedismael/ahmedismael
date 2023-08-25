@@ -1,4 +1,4 @@
-import Section from "@/Templates/Section";
+import Section from "@/templates/Section";
 import { Box, Grid, Typography } from "@mui/material";
 import React from "react";
 import EmailIcon from "@mui/icons-material/Email";
@@ -56,7 +56,15 @@ const Contact = () => {
               </Box>
               <Box overflow={"hidden"}>
                 <Typography fontSize={"x-large"}>{e.title}</Typography>
-                <Typography>{e.info}</Typography>
+                <Typography display={{ xs: "none", sm: "block" }}>
+                  {e.info}
+                </Typography>
+                <Typography
+                  fontSize={"small"}
+                  display={{ xs: "block", sm: "none" }}
+                >
+                  {e.info}
+                </Typography>
               </Box>
             </Box>
           </Grid>
