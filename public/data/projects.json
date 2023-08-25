@@ -34,7 +34,12 @@
       "github": "https://github.com/dev-ahmedismael/metronic",
       "url": "https://metronic-project.vercel.app",
       "release_date": "Aug 04, 2023",
-      "last_update": "Aug 04, 2023"
+      "last_update": "Aug 04, 2023",
+      "notes": [
+        "Use the data provided below to sign in: ",
+        "Email: admin@company.com",
+        "Password: admin123"
+      ]
     },
     {
       "id": "jasmine-cfa",

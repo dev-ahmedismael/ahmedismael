@@ -22,25 +22,37 @@ const SingleProject = () => {
       </Box>
       <Grid container spacing={10}>
         <Grid item xs={12} sm={7}>
-          <Typography variant="h5" mb={2}>
+          <Typography variant="h6" mb={2}>
             Title: {project.title}
           </Typography>
-          <Typography variant="h5" mb={2}>
+          <Typography variant="h6" mb={2}>
             Description: {project.description} website
           </Typography>
-          <Typography variant="h5" mb={2}>
+          <Typography variant="h6" mb={2}>
             Type: {project.category}
           </Typography>
-          <Typography variant="h5" mb={2}>
+          <Typography variant="h6" mb={2}>
             Frameworks and used technologies: {project.techs}
           </Typography>
-          <Typography variant="h5" mb={2}>
+          <Typography variant="h6" mb={2}>
             First release date: {project.release_date}
           </Typography>
-          <Typography variant="h5" mb={2}>
+          <Typography variant="h6" mb={2}>
             Last updated on: {project.last_update}
           </Typography>
-          <Box display={"flex"} flexWrap={"wrap"} mb={2}>
+          {project.notes !== undefined && (
+            <Box mb={2}>
+              <Typography variant="h6" mb={2}>
+                Notes:
+              </Typography>
+              {project.notes.map((e, index) => (
+                <Typography key={index} variant="h6" mb={2}>
+                  {e}
+                </Typography>
+              ))}
+            </Box>
+          )}
+          <Box display={"flex"} flexWrap={"wrap"} my={4}>
             <Link href={project.github} target="_blank">
               <Button variant="outlined" sx={{ height: 50, mr: 2 }}>
                 Github <GitHubIcon sx={{ ml: 2 }} />
